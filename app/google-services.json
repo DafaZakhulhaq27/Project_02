@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "319277730883",
+    "firebase_url": "https://mocha-3745c.firebaseio.com",
+    "project_id": "mocha-3745c",
+    "storage_bucket": "mocha-3745c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319277730883:android:2241366b534e1881",
+        "android_client_info": {
+          "package_name": "id.sch.smktelkom_mlg.project2.xirpl608202231.project_02"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319277730883-2eo5dnc3kic3c4k0bhj0dj5t4hqcv772.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.sch.smktelkom_mlg.project2.xirpl608202231.project_02",
+            "certificate_hash": "9a71c3fc8eae68752b5319c90c4165f10e94e2c5"
+          }
+        },
+        {
+          "client_id": "319277730883-mm142dk07cuuhlm5aeh1t0hi8blt7dp5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8Av4hhvOiJWk7ao_Tp1oJzE0Cplx2CV4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319277730883-mm142dk07cuuhlm5aeh1t0hi8blt7dp5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
