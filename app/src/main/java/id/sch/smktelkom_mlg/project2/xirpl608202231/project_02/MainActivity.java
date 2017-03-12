@@ -79,6 +79,9 @@ public class MainActivity extends AppCompatActivity {
                 input.setText("");
             }
         });
+
+        setTitle("Mocha");
+
         //Check If SignIN
         if (FirebaseAuth.getInstance().getCurrentUser() == null) {
             startActivityForResult(AuthUI.getInstance().createSignInIntentBuilder().build(), SIGN_IN_REQUEST_CODE);
@@ -98,9 +101,9 @@ public class MainActivity extends AppCompatActivity {
             protected void populateView(View v, ChatMessage model, int position) {
                 //Getting reference to view list_item.xml
                 TextView messageText, messageUser, messageTime;
-                messageText = (TextView) findViewById(R.id.pesan_isi);
-                messageUser = (TextView) findViewById(R.id.pesan_pengguna);
-                messageTime = (TextView) findViewById(R.id.pesan_waktu);
+                messageText = (TextView) v.findViewById(R.id.pesan_isi);
+                messageUser = (TextView) v.findViewById(R.id.pesan_pengguna);
+                messageTime = (TextView) v.findViewById(R.id.pesan_waktu);
 
                 messageText.setText(model.getPesanTeks());
                 messageUser.setText(model.getPesanPengguna());
